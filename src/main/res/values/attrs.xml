@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="FlowLayout">
+        <attr name="android:gravity" />
+    </declare-styleable>
+    <declare-styleable name="FlowLayout_Layout">
+        <attr name="android:layout_gravity" />
+    </declare-styleable>
+
+    <declare-styleable name="TableView">
+        <attr name="divider_padding" format="dimension" />
+    </declare-styleable>
+    <declare-styleable name="DebugDomainItem">
+        <attr name="itemDomainSelector" format="string" />
+        <attr name="itemDianpingDomain" format="string" />
+        <attr name="itemBetaDomain" format="string" />
+        <attr name="itemPPEDomain" format="string" />
+        <attr name="itemAlphaDomain" format="string" />
+        <attr name="itemYiminDomain" format="string" />
+        <attr name="itemCustomDomain" format="string" />
+        <attr name="itemMobileAPIDomain" format="string" />
+    </declare-styleable>
+    <declare-styleable name="BasicItem">
+        <attr name="dptitle" format="string" />
+        <attr name="subTitle" format="string" />
+        <attr name="input" format="string" />
+        <attr name="input_hint" format="string" />
+        <attr name="input_type" format="integer">
+            <flag name="text" value="0x01" />
+            <flag name="password" value="0x80" />
+            <flag name="number" value="0x02" />
+            <flag name="phone" value="0x03" />
+            <flag name="email" value="0x20" />
+        </attr>
+        <attr name="input_maxLength" format="integer" />
+        <attr name="count" format="string" />
+        <attr name="checked" format="integer">
+            <enum name="check" value="1" />
+            <enum name="uncheck" value="2" />
+        </attr>
+        <attr name="clickable" format="boolean" />
+        <attr name="show1stPic" format="boolean" />
+        <attr name="show2ndPic" format="boolean" />
+        <attr name="title_textType" format="integer">
+            <flag name="small" value="0x01" />
+            <flag name="yellow_color" value="0x02" />
+            <flag name="gray_color" value="0x04" />
+            <flag name="black_color" value="0x08" />
+            <flag name="bold" value="0x10" />
+        </attr>
+        <attr name="subTitle_textType" format="integer">
+            <flag name="small" value="0x01" />
+            <flag name="yellow_color" value="0x02" />
+            <flag name="gray_color" value="0x04" />
+            <flag name="black_color" value="0x08" />
+            <flag name="bold" value="0x10" />
+        </attr>
+        <attr name="count_textType" format="integer">
+            <flag name="small" value="0x01" />
+            <flag name="yellow_color" value="0x02" />
+            <flag name="gray_color" value="0x04" />
+            <flag name="black_color" value="0x08" />
+            <flag name="bold" value="0x10" />
+        </attr>
+        <attr name="input_textType" format="integer">
+            <flag name="small" value="0x01" />
+            <flag name="yellow_color" value="0x02" />
+            <flag name="gray_color" value="0x04" />
+            <flag name="black_color" value="0x08" />
+            <flag name="bold" value="0x10" />
+        </attr>
+        <attr name="right1stPic" format="reference" />
+        <attr name="right2ndPic" format="reference" />
+        <attr name="arrowImage" format="reference" />
+    </declare-styleable>
+</resources>

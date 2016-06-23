@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="single_line_height">48dp</dimen>
+    <dimen name="single_line_height_meduim">42dp</dimen>
+    <dimen name="table_item_padding">15dp</dimen>
+    <dimen name="section_height">22dp</dimen>
+    <dimen name="section_height_with_text">44dp</dimen>
+    <dimen name="text_medium_1">14sp</dimen>
+</resources>

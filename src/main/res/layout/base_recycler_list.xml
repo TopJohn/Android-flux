@@ -1,0 +1,28 @@
+<android.support.v4.widget.SwipeRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@+id/swiperefreshlayout"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:visibility="visible">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <com.milk.widget.EmptyRecyclerView
+            android:id="@+id/listview"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp" />
+        <FrameLayout
+            android:id="@+id/listview_empty"
+            android:visibility="gone"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp" />
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:id="@+id/progressBar"
+            android:visibility="gone"
+            android:layout_gravity="center_horizontal" />
+    </LinearLayout>
+</android.support.v4.widget.SwipeRefreshLayout>

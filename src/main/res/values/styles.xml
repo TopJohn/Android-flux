@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <style name="TableItem">
+        <item name="android:background">@drawable/table_view_item</item>
+    </style>
+
+    <style name="TableItemWithPadding" parent="TableItem">
+        <item name="android:paddingLeft">@dimen/table_item_padding</item>
+        <item name="android:paddingRight">@dimen/table_item_padding</item>
+    </style>
+
+    <style name="SingleLineTableItemWithPadding" parent="TableItemWithPadding">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/single_line_height</item>
+    </style>
+
+    <style name="SingleLineTableItem" parent="TableItem">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/single_line_height</item>
+    </style>
+
+    <style name="SingleLineTableItemWithLeftPadding" parent="SingleLineTableItem">
+        <item name="android:paddingLeft">@dimen/table_item_padding</item>
+    </style>
+    <style name="content_page_small_text">
+        <item name="android:duplicateParentState">true</item>
+        <item name="android:textSize">@dimen/text_medium_1</item>
+        <item name="android:textColor">@color/text_color_selector</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:singleLine">true</item>
+    </style>
+</resources>
